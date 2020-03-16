@@ -16,6 +16,7 @@ end
 
 def my_hash_creator(key, value)
   color = {red: 1}
+  color[key] = value
 end
 
 def read_from_hash(hash, key)
