@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  :cars => 3
+  cars: 3
 end
 
 def pioneer
